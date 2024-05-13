@@ -118,3 +118,12 @@ main {
    padding: 0.5em 1em;
 
 }
+
+#next-btn {
+    font-size: 1.2rem;
+    font-weight: 500;
+    border-radius: 2.5rem;
+    height: 3rem;
+    padding: 0rem 1rem;
+    margin-top: 0.6em;
+}
