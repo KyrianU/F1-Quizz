@@ -89,3 +89,32 @@ main {
     cursor: pointer;
     border: #000000;
 }
+
+#question {
+    display: block;
+    text-align: center;
+    font-weight: 650;
+    color: #ffffff;
+    font-size: 2.5rem;
+}
+
+#answer-container {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+    row-gap: 0.5rem;
+    margin: 2em 1em 1em 1em;
+}
+
+.answer-btn-container {
+   align-self: center;
+   border-radius: 3rem;
+   font-size: 2.2rem;
+   font-weight: 500;
+   width: 100%;
+   cursor: pointer;
+   border: 0.2em solid #000000;
+   padding: 0.5em 1em;
+
+}
