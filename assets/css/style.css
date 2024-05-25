@@ -59,7 +59,7 @@ main {
    border: #000000;
 }
 
-#scoreboard-btn {
+#instruction-btn {
     font-size: 3.5rem;
     font-weight: 700;
     border-radius: 3rem;
@@ -70,7 +70,7 @@ main {
     border: 0.4rem solid #ff0000;
 }
 
-#scoreboard-btn:hover {
+#instruction-btn:hover {
     color: #ffffff;
     background-color: #000000;
     cursor: pointer;
