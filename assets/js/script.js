@@ -1,5 +1,6 @@
 
 const homeContainer = document.getElementById("Home-container");
+const playBtn = document.getElementById("play-btn");
 const questionCount = document.getElementById("question-count");
 const gameContainer = document.getElementById("game-container");
 const questionNumber = document.getElementById("question-number");
@@ -98,11 +99,12 @@ let questions = [{
 ];
 
 playBtn.addEventListener("click", startQuizz);
-function startGame() {
+const startGame = () => {
         questionNumber = 0;
         score = 0
         availableQuestion = [...questions];
         getNewQuestions();
-        
+        pro
+
 
 }
