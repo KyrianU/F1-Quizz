@@ -5,6 +5,13 @@ const gameContainer = document.getElementById("game-container");
 const questionNumber = document.getElementById("question-number");
 const questionContent = document.getElementById("question");
 const btnContent = document.getElementsByClassName("answer-btn-container");
+const maxQuestions = 10
+
+let currentQuestionIndex = 0;
+let score = 0
+let availableQuestion = [];
+
+
 
 
 let questions = [{
@@ -90,3 +97,12 @@ let questions = [{
 
 ];
 
+playBtn.addEventListener("click", startQuizz);
+function startGame() {
+        questionNumber = 0;
+        score = 0
+        availableQuestion = [...questions];
+        getNewQuestions();
+        
+
+}
