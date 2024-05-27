@@ -109,27 +109,36 @@ h3{
     font-size: 2.5rem;
 }
 
-#answer-container {
-    display: flex;
-    flex-direction: column;
-    height: auto;
-    width: 100%;
-    row-gap: 0.5rem;
-    margin: 2em 1em 1em 1em;
-}
-
-.answer-btn-container {
+.answer-btn {
    align-self: center;
    border-radius: 3rem;
-   font-size: 2.2rem;
-   font-weight: 500;
-   width: 100%;
+   font-size: 1.5rem;
+   font-weight: 600;
+   width: 75%;
    cursor: pointer;
-   border: 0.2em solid #000000;
+   border: 0.3em solid #000000;
    padding: 0.5em 1em;
    transform: scale(1.02);
    transform: transform 100ms;
 
+}
+
+.answer-letter {
+    padding: 0.5em;
+    align-items: center;
+}
+
+.choice-text{
+    padding: 1rem;
+    width: 100%;
+}
+
+.correct {
+    background-color: #00ff00;
+}
+
+.incorrect {
+    background-color: #ff0000;
 }
 
 #next-btn {
