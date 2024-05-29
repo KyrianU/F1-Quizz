@@ -9,11 +9,12 @@
 .choice-container {
     display: flex;
     margin-bottom: 0.8rem;
-    width: 100%;
-    border-radius: 4px;
+    width: 70%;
+    border-radius: 3rem;
     background: blue;
-    font-size: 3rem;
-    min-width: 80rem;
+    font-size: 1.5rem;
+    min-width: 65rem;
+    justify-content: center;
 }
 
 .choice-container:hover {
@@ -34,7 +35,7 @@
 }
 
 .correct {
-    background:green;
+    background: green;
 }
 
 .incorrect {

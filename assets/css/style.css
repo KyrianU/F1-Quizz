@@ -78,6 +78,10 @@ main {
     border: #000000;
 }
 
+a {
+    text-decoration: none;
+}
+
 
 #question-round-container {
     margin-top: 3em;
