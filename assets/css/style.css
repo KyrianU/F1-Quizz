@@ -17,6 +17,7 @@ body {
     color: #ffff;
 }
 
+
 header {
     text-align: center;
     font-size: 2.2rem;
@@ -103,7 +104,6 @@ h3{
 }
 
 #question {
-    display: block;
     text-align: center;
     font-weight: 650;
     color: #ffffff;
@@ -111,12 +111,13 @@ h3{
 }
 
 .answer-btn {
-   background-color: #fff; 
-   align-self: center;
+   display: flex; 
+   background-color: #fff;
+   align-items: center;
    border-radius: 3rem;
    font-size: 1.5rem;
    font-weight: 600;
-   width: 75%;
+   width: 60%;
    cursor: pointer;
    border: 0.3em solid #000000;
    padding: 0.5em 1em;
