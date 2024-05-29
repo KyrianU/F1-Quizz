@@ -1,110 +1,153 @@
 
-const homeContainer = document.getElementById("Home-container");
-const playBtn = document.getElementById("play-btn");
-const questionCount = document.getElementById("question-count");
-const gameContainer = document.getElementById("game-container");
-const questionNumber = document.getElementById("question-number");
-const questionContent = document.getElementById("question");
-const btnContent = document.getElementsByClassName("answer-btn-container");
+const question = document.getElementById("#question");
+const choices = Array.from(document.getElementsByClassName(".choice-text"));
 const maxQuestions = 10
+const scoreTally = 10
+const questionNumber = document.getElementById("#question-number");
+const progressBar = document.getElementById("#progessBar");
+const scoreCount = document.getElementById("#score-count");
+const homeContainer = document.getElementById("#Home-container");
 
 let currentQuestionIndex = 0;
 let score = 0
 let availableQuestion = [];
-
+let questionCounter = 0
+let acceptingAnswers = true
 
 
 
 let questions = [{
         question: "Who holds the record for the most pole positions In formula 1 history?",
-        answer1: "Ayrton Senna",
-        answer2: "Lewis Hamilton",
-        answer3: "Michael Schumacher",
-        answer4: 'Max Verstappen',
+        choice1: "Ayrton Senna",
+        choice2: "Lewis Hamilton",
+        choice3: "Michael Schumacher",
+        choice4: 'Max Verstappen',
         answer: 2,
 },
 {
         question: "Who holds the record for being the youngest formula 1 world champion?",
-        answer1: "Sebastian Vettel",
-        answer2: "Lewis Hamilton",
-        answer3: "Michael Schumacher",
-        answer4: "Fernando Alonso",
+        choice1: "Sebastian Vettel",
+        choice2: "Lewis Hamilton",
+        choice3: "Michael Schumacher",
+        choice4: "Fernando Alonso",
         answer: 1,
 },
 {
         question: "In 2016, who became the Formula 1 world champion and subsequently announced his retirement from the sport days later?",
-        answer1: "Jenson Button",
-        answer2: "Mark Webbter",
-        answer3: "Nico Rosberg",
-        answer4: "Felipe Massa",
+        choice1: "Jenson Button",
+        choice2: "Mark Webbter",
+        choice3: "Nico Rosberg",
+        choice4: "Felipe Massa",
         answer: 3,
 },
 {
         question: "How many points are awarded to the race winner of a Grand Prix?",
-        answer1: "20",
-        answer2: "10",
-        answer3: "15",
-        answer4: "25",
+        choice1: "20",
+        choice2: "10",
+        choice3: "15",
+        choice4: "25",
         answer: 4,
 },
 {
         question: "Which driver won their first race at the 2020 Italian Grand Prix?",
-        answer1: "Pierre Gasly",
-        answer2: "Carlos Sainz",
-        answer3: "Danil Kvyat",
-        answer4: "Sergio Perez",
+        choice1: "Pierre Gasly",
+        choice2: "Carlos Sainz",
+        choice3: "Danil Kvyat",
+        choice4: "Sergio Perez",
         answer: 1,
 },
 {
         question: "Who holds the record for the most win In formula 1 history?",
-        answer1: "Ayrton Senna",
-        answer2: "Michael Schumcher",
-        answer3: "Lewis Hamilton",
-        answer4: "Fernando Alonso",
+        choice1: "Ayrton Senna",
+        choice2: "Michael Schumcher",
+        choice3: "Lewis Hamilton",
+        choice4: "Fernando Alonso",
         answer: 3,
 },
 {
         question: "Which tyre company has been the sole tire supplier In formula 1 since 2011?",
-        answer1: "Pirelli",
-        answer2: "Michelin",
-        answer3: "Goodyear",
-        answer4: "Bridgestone",
+        choice1: "Pirelli",
+        choice2: "Michelin",
+        choice3: "Goodyear",
+        choice4: "Bridgestone",
         answer: 1,
 },
 {
         question: "In which country Is the circuit Albert Park situated?",
-        answer1: "New Zealand",
-        answer2: "United Kingdom",
-        answer3: "Australia",
-        answer4: "Netherlands",
+        choice1: "New Zealand",
+        choice2: "United Kingdom",
+        choice3: "Australia",
+        choice4: "Netherlands",
         answer: 3,
 },
 {
         question: "What nationality Is Max Verstappen?",
-        answer1: "French",
-        answer2: "Dutch",
-        answer3: "Swedish",
-        answer4: "German",
+        choice1: "French",
+        choice2: "Dutch",
+        choice3: "Swedish",
+        choice4: "German",
         answer: 2,
 },
 {
         question: "Which one of these former drivers Is not a formula 1 world champion?",
-        answer1: "Kimi Raikkonen",
-        answer2: "Jenson Button",
-        answer3: "Nico Rosberg",
-        answer4: "Mark Webber",
+        choice1: "Kimi Raikkonen",
+        choice2: "Jenson Button",
+        choice3: "Nico Rosberg",
+        choice4: "Mark Webber",
         answer: 4,
 },
 
 ];
 
-playBtn.addEventListener("click", startQuizz);
-const startGame = () => {
-        questionNumber = 0;
-        score = 0
+startGame = () => {
+        questionCounter = 0;
         availableQuestion = [...questions];
-        getNewQuestions();
-        pro
-
-
+        score = 0;
+        getNewQuestion();
 }
+
+getNewQuestion = () => {
+        if (availableQuestion.length === 0 || questionCounter > maxQuestions) {
+                localStorage.setItem('mostRecentscore',)
+                return window.location.assign('end.html');
+        }
+
+        questionCounter++
+        progressText.innerText = 'Question ${questionCounter} of ${maxQuestions}';
+        progressBar.style.width = '${(questionCounter/maxQuestions) * 100}%'
+
+        const questionsIndex = Math.floor(Math.random() * availableQuestions.length)
+        currentQuestion = availableQuestion[questionsIndex]
+        question.innerText = currentQuestion.question
+
+        choices.forEach(choice => {
+                const number = choice.dataset['number']
+                choice.innerText = currentQuestion['choice' + number]
+        })
+
+        availableQuestion.splice(questionsIndex, 1)
+        acceptingAnswers = true 
+}
+
+choices.forEach(choice => {
+        choice.addEventListener('click', e => {
+                if(!acceptingAnswers) return
+
+                acceptingAnswers = false
+                const selectedChoice = e.target
+                const selectedAnswer = selectedChoice.dataset['number']
+
+                let classToApply = selectedAnswer == currentQuestion.answer ? 'correct' : 'incorrect';
+
+                if(classToApply === 'correct') {
+                        incrementScore(scoreTally)
+                }
+
+                selectedChoice.parentElement.classList.add(classToApply)
+
+                setTimeout(() => {
+                        selectedChoice.parentElement.classList.remove(classToApply)
+                        getNewQuestion()
+                }, 800)
+        });
+});
