@@ -91,3 +91,13 @@ let questions = [{
 },
 
 ];
+
+const SCORE_POINTS = 10
+const MAX_QUESTIONS = 10
+
+startGame = () => {
+    questionCounter = 0
+    score = 0
+    availableQuestions = [...questions]
+    getNewQuestion()
+}
