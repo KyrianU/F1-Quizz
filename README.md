@@ -23,3 +23,7 @@
 - I want to be able to have the option to see the leaderboard and see who the best score is
 - I want to be able to go back on the site with the question being randomised from the start
 - I want for the site to be compatible and functional across all devices
+
+### Color scheme
+- For the color scheme, I deciced to emulate the color scheme of the ferrari formula 1 team, which happens 
+to be statiscally, the most successful formula 1 team.
