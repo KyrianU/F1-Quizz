@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Jersey+25&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
+/* Structure and color theme of the website */
 * {
     margin: 0;
     padding: 0;
@@ -32,6 +33,7 @@ main {
     justify-content: flex-start;
 }
 
+/* Structure for the home buttons elements */
 
 #Home-container {
    text-align: center;
@@ -104,6 +106,8 @@ a {
     text-decoration: none;
 }
 
+/* CCS styling for the end.html file */
+
 .form-container {
     width: 100%;
     display: flex;
@@ -142,5 +146,3 @@ input {
     font-weight: bold;
     padding: 1rem;
 }
-
-

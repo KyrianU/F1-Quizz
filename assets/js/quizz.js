@@ -1,3 +1,7 @@
+// Credit: The code displayed below were inspired by a couple of video tutorials from Brian Design and James quick //
+
+// basic const function creaded //
+
 const question = document.querySelector('#question');
 const choices = Array.from(document.querySelectorAll('.choice-text'));
 const progressText = document.querySelector('#progressText');
@@ -5,11 +9,17 @@ const scoreText = document.querySelector('#score');
 const homeBtn = document.querySelector('#home-btn');
 const restartBtn = document.querySelector('#restart-btn');
 
+// calls for various function created //
+
 let currentQuestion = {}
 let acceptingAnswers = true
 let score = 0
 let questionCounter = 0
 let availableQuestions = []
+
+/**
+* List of questions and answers created and stored in this array object 
+*/
 
 let questions = [{
     question: "Who holds the record for the most pole positions In formula 1 history?",
@@ -94,8 +104,12 @@ let questions = [{
 
 ];
 
+// Points for maximum score and maximum questions count //
+
 const SCORE_POINTS = 10
 const MAX_QUESTIONS = 10
+
+// starts the Game function //
 
 startGame = () => {
     questionCounter = 0
@@ -104,29 +118,31 @@ startGame = () => {
     getNewQuestion()
 }
 
+
+
 getNewQuestion = () => {
-    if(availableQuestions.length === 0 || questionCounter > MAX_QUESTIONS) {
-        localStorage.setItem('mostRecentScore', score)
-        return window.location.assign('/end.html')
+    if(availableQuestions.length === 0 || questionCounter >= MAX_QUESTIONS) {
+        localStorage.setItem('mostRecentScore', score);
+        //go to the end page
+        return window.location.assign('/end.html');
     }
-
     questionCounter++
-    progressText.innerText = `Question ${questionCounter} of ${MAX_QUESTIONS}`;
-    progressBar.style.width = `${(questionCounter/MAX_QUESTIONS) * 100}%`;
-    
-    const questionsIndex = Math.floor(Math.random() * availableQuestions.length)
-    currentQuestion = availableQuestions[questionsIndex]
-    question.innerText = currentQuestion.question
+    progressText.innerText = `Question ${questionCounter}/${MAX_QUESTIONS}`;
+    progressBar.style.width = `${(questionCounter / MAX_QUESTIONS) * 100}%`;
 
-    choices.forEach(choice => {
-        const number = choice.dataset['number']
-        choice.innerText = currentQuestion['choice' + number]
-    })
+    const questionIndex = Math.floor(Math.random() * availableQuestions.length);
+    currentQuestion = availableQuestions[questionIndex];
+    question.innerText = currentQuestion.question;
 
-    availableQuestions.splice(questionsIndex, 1)
+    choices.forEach((choice) => {
+        const number = choice.dataset['number'];
+        choice.innerText = currentQuestion['choice' + number];
+    });
+
+    availableQuestions.splice(questionIndex, 1);
 
     acceptingAnswers = true
-}
+};
 
 choices.forEach(choice => {
     choice.addEventListener('click', e => {
@@ -151,10 +167,18 @@ choices.forEach(choice => {
     })
 })
 
+/**
+ * Increments the score to the score counter
+ */
+
 incrementScore = num => {
     score +=num
     scoreText.innerText = score
 }
+
+/**
+ * event listeners for the home and restart button 
+ */
 
 startGame()
 

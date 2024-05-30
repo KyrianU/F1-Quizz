@@ -88,6 +88,12 @@ to be statiscally, the most successful formula 1 team.
 
 # Testing
 
+## Validator testing 
+
+- All of my HTML files were tested using the ![vHTML Validator](https://validator.w3.org/nu/#textarea) and all passed with minimal issues 
+
+- 
+
 ## Lighthouse reporting
 
 - I conducted the lighthouse report in google chrome to test the perfomance of the quiz site, results can be seen below
@@ -106,3 +112,5 @@ When I had an issue with removing text decorations from my anchor elements, It w
 webstite favicon was taking from her![flaticon](https://www.flaticon.com/style/search?word=formula+1)
 
 Coolors where the color theme for the site was picked from ![Coolors](https://coolors.co/a6051a-ffeb00-ffffff-111111-ef3054)
+
+![W3C validator](https://validator.w3.org/nu/#textarea)
