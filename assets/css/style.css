@@ -79,18 +79,18 @@ main {
 }
 
 #leaderbrd-btn {
-    font-size: 3.5rem;
+   font-size: 3.5rem;
    font-weight: 700;
    border-radius: 3rem;
-   background-color: transparent;
-   color: #ffffff;
+   background-color: #ffeb00;
+   color: #111111;
    padding: 0.2em 0.3em;
    margin: 1em 2em;
    border: 0.4rem solid #ff0000;
 }
 
 #leaderbrd-btn:hover {
-    color: #ffffff;
+    color: #ffeb00;
     background-color: #000000;
     cursor: pointer;
     border: #000000;
