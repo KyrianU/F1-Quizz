@@ -33,6 +33,17 @@ to be statiscally, the most successful formula 1 team.
 -  The fonts used for the site was Montserrat, sans serif
 
 # Wireframes 
+## Landing page
+![Home Page](assets/images/wireframe-homepage.png)
+
+## Quiz Page
+![Quiz Page](assets/images/Wireframe-quizpage.png)
+
+## Enf of Quiz
+![Quiz End](assets/images/Wireframe-quizpage.png)
+
+## Leaderboard
+![leaderboard](assets/images/wireframes-leaderboard.png)
 
 
 # Features
