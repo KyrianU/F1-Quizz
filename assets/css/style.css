@@ -7,9 +7,9 @@
 }
 
 body {
-    background-image: url(../images/F1-background.jpg);
+    background-color: #cfcfc4;
     background-size: cover;
-    font-weight: 400;
+    font-weight: 500;
     font-family: 'montserrat';
     display: flex;
     min-height: 100vh;
@@ -99,7 +99,7 @@ h3{
 }
 
 #question-number {
-    color: #fff;
+    color: black;
     font-weight: 650;
     font-size: 1.2rem;
     border-radius: 0.3em 0.4em 0.4em 0.3em;
@@ -110,26 +110,10 @@ h3{
 #question {
     text-align: center;
     font-weight: 650;
-    color: #ffffff;
+    color: #af0034;
     font-size: 2.5rem;
 }
 
-.answer-btn {
-   display: flex; 
-   background-color: #fff;
-   align-items: center;
-   border-radius: 3rem;
-   font-size: 1.5rem;
-   font-weight: 600;
-   width: 60%;
-   cursor: pointer;
-   border: 0.3em solid #000000;
-   padding: 0.5em 1em;
-   transform: scale(1.02);
-   transform: transform 100ms;
-   color: #000000;
-
-}
 
 .answer-letter {
     padding: 0.5em;
@@ -141,11 +125,4 @@ h3{
     width: 100%;
 }
 
-.correct {
-    background-color: #00ff00;
-}
-
-.incorrect {
-    background-color: #ff0000;
-}
 
