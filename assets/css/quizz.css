@@ -7,7 +7,7 @@
 }
 
 #progressText {
-    color: #af0034;
+    color: #ffeb00;
     font-weight: 500;
     font-size: 2rem;
     text-align: center;
@@ -16,7 +16,7 @@
 #question {
     text-align: center;
     font-weight: 650;
-    color: #a6051a;
+    color: #ffeb00;
     font-size: 2.5rem;
 }
 
@@ -81,8 +81,8 @@
 }
 
 .btn {
-   background-color: #a6051a;
-   color: #000000;
+   background-color: #111111;
+   color: #ffeb00;
    font-weight: bold;
    padding: 1rem;
 }
