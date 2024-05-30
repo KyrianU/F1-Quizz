@@ -27,6 +27,7 @@
 ### Color scheme
 - For the color scheme, I deciced to emulate the color scheme of the ferrari formula 1 team, which happens 
 to be statiscally, the most successful formula 1 team.
+![Color Palette](assets/images/color-palette.png)
 
 ### Fonts used
 -  The fonts used for the site was Montserrat, sans serif
