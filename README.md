@@ -85,3 +85,18 @@ to be statiscally, the most successful formula 1 team.
 - Google fonts
 - balsamiq wireframes
 - Am I responsive
+
+
+# Credits
+
+- For this project I relied a lot on the material from the likes of Brian Design and James Quick, the link to their tutorial can be found below.
+![Youtube](https://www.youtube.com/watch?v=f4fB9Xg2JEY)
+![Youtube](https://www.youtube.com/watch?v=IK257Ln0MZc)
+
+When I had an issue with removing text decorations from my anchor elements, It was thanks to the link below that I was able to overcome the issue
+![anchor tag](https://www.shecodes.io/athena/62460-how-to-remove-underline-from-an-html-link-with-css#:~:text=You%20need%20to%20set%20the,any%20of%20its%20other%20styles.&text=In%20this%20example%2C%20the%20a,any%20links%20on%20your%20website)
+
+![Font awesome](https://fontawesome.com/search?q=end&o=r)
+webstite favicon was taking from her![flaticon](https://www.flaticon.com/style/search?word=formula+1)
+
+Coolors where the color theme for the site was picked from ![Coolors](https://coolors.co/a6051a-ffeb00-ffffff-111111-ef3054)
