@@ -111,7 +111,6 @@ getNewQuestion = () => {
     }
 
     questionCounter++
-    console.log("Progress text", progressText);
     progressText.innerText = `Question ${questionCounter} of ${MAX_QUESTIONS}`;
     progressBar.style.width = `${(questionCounter/MAX_QUESTIONS) * 100}%`;
     

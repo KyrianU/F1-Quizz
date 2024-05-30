@@ -86,6 +86,12 @@ to be statiscally, the most successful formula 1 team.
 - balsamiq wireframes
 - Am I responsive
 
+# Testing
+
+## Lighthouse reporting
+
+- I conducted the lighthouse report in google chrome to test the perfomance of the quiz site, results can be seen below
+![lighthouse](/assets/images/lighthouse-report.png)
 
 # Credits
 
