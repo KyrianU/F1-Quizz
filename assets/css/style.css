@@ -41,41 +41,45 @@ main {
    width: 100%;
 }
 
+#F1-quizz-title {
+    color: #a6051a;
+}
+
 
 #play-btn {
    font-size: 3.5rem;
    font-weight: 700;
    border-radius: 3rem;
-   background-color: transparent;
-   color: #ffffff;
+   background-color: #ffeb00;
+   color: #111111;
    padding: 0.2em 0.3em;
    margin: 1em 2em;
-   border: 0.4rem solid #ff0000;
+   border: 0.4rem solid #111111;
 }
 
 #play-btn:hover {
-   color: #ffffff;
-   background-color: #000000;
+   color: #ffeb00;
+   background-color: #111111;
    cursor: pointer;
-   border: #000000;
+   border: 0.4rem solid #ffeb00;
 }
 
 #instruction-btn {
     font-size: 3.5rem;
     font-weight: 700;
     border-radius: 3rem;
-    background-color: transparent;
-    color: #ffffff;
+    background-color: #ffeb00;
+    color: #111111;
     padding: 0.2em 0.3em;
     margin: 0em 1em;
-    border: 0.4rem solid #ff0000;
+    border: 0.4rem solid #111111;
 }
 
 #instruction-btn:hover {
-    color: #ffffff;
-    background-color: #000000;
+    color: #ffeb00;
+    background-color: #111111;
     cursor: pointer;
-    border: #000000;
+    border: 0.4rem solid #ffeb00;
 }
 
 #leaderbrd-btn {
@@ -86,14 +90,14 @@ main {
    color: #111111;
    padding: 0.2em 0.3em;
    margin: 1em 2em;
-   border: 0.4rem solid #ff0000;
+   border: 0.4rem solid #111111;
 }
 
 #leaderbrd-btn:hover {
     color: #ffeb00;
-    background-color: #000000;
+    background-color: #111111;
     cursor: pointer;
-    border: #000000;
+    border: 0.4rem solid #ffeb00;
 }
 
 a {
