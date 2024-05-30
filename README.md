@@ -30,3 +30,37 @@ to be statiscally, the most successful formula 1 team.
 
 ### Fonts used
 -  The fonts used for the site was Montserrat, sans serif
+
+# Wireframes 
+
+
+# Features
+## Landing Page
+
+- The landing page, which consists of the main buttons Start, which will take you to the quizz page. The  instructions, which will take the user to the instruction page & leaderboard button that will take the user to the leaderboard page
+
+## Main Quiz Page
+
+- The page below which consists of the main quiz page which features a question counter and score count. The hover effect highlighted in the screenshot below, to help the user know which answer the cursor currently is pointing at.
+
+## End of the quiz
+
+- This section of the quiz is where the final score is displayed. users will be then prompted to input their username and then save it. The user will also be prompted to either start the quiz over should they wish to do so, or to go back to the homepage
+
+## Leaderboard page
+
+- This page shows the user the top 6 people in the leaderboard. The leaderboard is stored locally
+- The user has the option to either start the quiz over or be prompted to back to the homepage
+
+## Correct Answer
+
+- The answer button will be highlighted in green whenever the correct answer has been selected
+
+## Incorrect Answer
+
+- Opposite to the correct answer, the incorrect answer will be highlighted In red for when the incorrect answer has been selected
+
+# Features left to implement
+
+- A feature that could be implemented in the future would be a different set of difficulty level, ranging from easy, medium, hard, expert. This would make it more challenging and more fun for existing formula 1 fans and new formula 1 fans
+- to the display the correct answer whenever the incorrect answer has been clicked 
