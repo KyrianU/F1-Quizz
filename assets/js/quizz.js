@@ -2,6 +2,8 @@ const question = document.querySelector('#question');
 const choices = Array.from(document.querySelectorAll('.choice-text'));
 const progressText = document.querySelector('#progressText');
 const scoreText = document.querySelector('#score');
+const homeBtn = document.querySelector('#home-btn');
+const restartBtn = document.querySelector('#restart-btn');
 
 let currentQuestion = {}
 let acceptingAnswers = true
@@ -155,3 +157,11 @@ incrementScore = num => {
 }
 
 startGame()
+
+homeBtn.addEventListener('click', () => {
+    return window.location.assign('/index.html');
+});
+
+restartBtn.addEventListener('click', () => {
+    return window.location.assign('/quizz.html');
+})
