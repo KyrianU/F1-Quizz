@@ -47,7 +47,7 @@ main {
 
 
 #play-btn {
-   font-size: 3.5rem;
+   font-size: 3rem;
    font-weight: 700;
    border-radius: 3rem;
    background-color: #ffeb00;
@@ -65,7 +65,7 @@ main {
 }
 
 #instruction-btn {
-    font-size: 3.5rem;
+    font-size: 3rem;
     font-weight: 700;
     border-radius: 3rem;
     background-color: #ffeb00;
@@ -83,7 +83,7 @@ main {
 }
 
 #leaderbrd-btn {
-   font-size: 3.5rem;
+   font-size: 3rem;
    font-weight: 700;
    border-radius: 3rem;
    background-color: #ffeb00;

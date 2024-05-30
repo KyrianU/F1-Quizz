@@ -64,3 +64,12 @@ to be statiscally, the most successful formula 1 team.
 
 - A feature that could be implemented in the future would be a different set of difficulty level, ranging from easy, medium, hard, expert. This would make it more challenging and more fun for existing formula 1 fans and new formula 1 fans
 - to the display the correct answer whenever the incorrect answer has been clicked 
+
+# Technologies Used
+- HTML5
+- CSS
+- Javascript 
+- Git, github, Gitpod
+- Google fonts
+- balsamiq wireframes
+- Am I responsive
