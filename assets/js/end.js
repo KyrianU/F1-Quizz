@@ -12,9 +12,9 @@ const highscores = JSON.parse(localStorage.getItem('highScores')) || []
 
 // The top 6 scores will be shown on the leaderboard page //
 
-const MAX_HiGH_SCORES = 6 
+const MAX_HiGH_SCORES = 6;
 
-quizScore.innerText = mostRecentScore
+quizScore.innerText = mostRecentScore;
 
 // Event listener for the save button function // 
 
@@ -28,7 +28,7 @@ username.addEventListener('keyup', () => {
 
 saveHighScore = e => {
     e.preventDefault();
-}
+
 
 const score = {
     score: mostRecentScore,
@@ -46,3 +46,4 @@ localStorage.setItem('highscores', JSON.stringify(highscores));
 window.location.assign('index.html')
 
 
+};

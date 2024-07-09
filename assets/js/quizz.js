@@ -141,7 +141,7 @@ getNewQuestion = () => {
 
     availableQuestions.splice(questionIndex, 1);
 
-    acceptingAnswers = true
+    acceptingAnswers = true;
 };
 
 choices.forEach(choice => {
