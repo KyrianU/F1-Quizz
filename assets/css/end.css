@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+25&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+
+.form-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 30rem;
+}
+
+input {
+    margin-bottom: 1rem;
+    width: 25rem;
+    padding: 1rem;
+    font-size: 1.5rem;
+    border: 2px solid #000000;
+}
+
+.save-btn {
+    background-color: #a6051a;
+    color: #000000;
+    font-weight: bold;
+    padding: 1rem;
+}
+
+#playAgainBtn {
+
+   font-size: 1.5rem;
+   font-weight: 700;
+   border-radius: 1rem;
+   background-color: #ffeb00;
+   color: #111111;
+   padding: 0.2em 0.3em;
+   margin: 1em 2em;
+   border: 0.3rem solid #111111;
+}
+
+#homeBtn {
+
+    font-size: 1.5rem;
+    font-weight: 700;
+    border-radius: 1rem;
+    background-color: #ffeb00;
+    color: #111111;
+    padding: 0.2em 0.3em;
+    margin: 1em 2em;
+    border: 0.3rem solid #111111;
+}
+
+.save-btn {
+    
+    font-size: 1.5rem;
+    font-weight: 700;
+    border-radius: 1rem;
+    background-color: #ffeb00;
+    color: #111111;
+    padding: 0.2em 0.3em;
+    margin: 1em 2em;
+    border: 0.3rem solid #111111;
+}
