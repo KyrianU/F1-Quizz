@@ -130,3 +130,32 @@ a {
     font-weight: bold;
     padding: 1rem;
 }
+
+.instructions {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 2px solid;
+    border-radius: 20px;
+    max-width: 50%;
+    height: 350px;
+    padding: 2rem;
+    margin: 0 auto;
+    margin-top: 6rem;
+    background: white;
+
+}
+
+#start-quizz {
+    font-size: 1.5rem;
+    font-weight: 500;
+    background-color: #ffeb00;
+    color: #111111;
+    margin: 0 auto;
+    border: 0.4rem solid #111111;
+    margin-top: 2rem;
+    border-radius: 2rem;
+}
+
