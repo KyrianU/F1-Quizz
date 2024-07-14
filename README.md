@@ -50,15 +50,22 @@ to be statiscally, the most successful formula 1 team.
 ## Landing Page
 
 - The landing page, which consists of the main buttons Start, which will take you to the quizz page. The  instructions, which will take the user to the instruction page & leaderboard button that will take the user to the leaderboard page
-[landing page](/assets/screenshots/main-page.png)
+![landing page](/assets/screenshots/main-page.png)
+
+## Instructions
+
+- This page contains a brief overview and instructions on the quiz, how many questions there are and the maximum points available
+![Instructions](/assets/screenshots/instructions.png)
 
 ## Main Quiz Page
 
 - The page below which consists of the main quiz page which features a question counter and score count. The hover effect highlighted in the screenshot below, to help the user know which answer the cursor currently is pointing at.
+![Quiz Page](/assets/screenshots/Quizz-page.png)
 
 ## End of the quiz
 
 - This section of the quiz is where the final score is displayed. users will be then prompted to input their username and then save it. The user will also be prompted to either start the quiz over should they wish to do so, or to go back to the homepage
+![End of Game](/assets/screenshots/End%20of%20Game.png)
 
 ## Leaderboard page
 
