@@ -2,13 +2,13 @@
 
 // basic const function creaded //
 
-const quizScore = document.querySelector('#quizScore')
-const username = document.querySelector('#username')
-const saveBtn = document.querySelector('.userSaveBtn')
-const mostRecentScore = localStorage.getItem('mostRecentScore')
+const quizScore = document.querySelector('#quizScore');
+const username = document.querySelector('#username');
+const saveBtn = document.querySelector('.userSaveBtn');
+const mostRecentScore = localStorage.getItem('mostRecentScore');
 
 
-const highscores = JSON.parse(localStorage.getItem('highScores')) || []
+const highScores = JSON.parse(localStorage.getItem('highScores')) || [];
 
 // The top 6 scores will be shown on the leaderboard page //
 
@@ -30,20 +30,20 @@ saveHighScore = e => {
     e.preventDefault();
 
 
-const score = {
-    score: mostRecentScore,
-    name: username.value
+    const score = {
+        score: mostRecentScore,
+        name: username.value
 
-}
+    };
 
-highscores.push(score);
+    highScores.push(score);
 
-highscores.sort( (a,b) => b.score - a.score);
+    highScores.sort( (a,b) => b.score - a.score);
 
-highscores.splice(6);
+    highScores.splice(6);
 
-localStorage.setItem('highscores', JSON.stringify(highscores));
-window.location.assign('index.html')
+    localStorage.setItem('highScores', JSON.stringify(highScores));
+    window.location.assign('index.html');
 
 
 };

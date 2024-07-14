@@ -1,9 +1,54 @@
 @import url('https://fonts.googleapis.com/css2?family=Jersey+25&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 body {
-    background-color: #ffffff;
+    background-color: #a6051a;
+    background-size: cover;
+    font-weight: 500;
+    font-family: 'montserrat';
+}
+
+.leaderboard-container {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 7rem;
+    border: 2px solid;
+    border-radius: 20px;
+    max-width: 50%;
+    height: 400px;
+    padding: 2rem;
+    margin: 0 auto;
+    margin-top: 6rem;
+    background: white;
 }
 
 #final-score {
-    list-style: none;
+
+    text-align: center;
 }
+
+.playAgainBtn {
+
+    font-size: 1.5rem;
+    font-weight: 700;
+    border-radius: 1rem;
+    background-color: #ffeb00;
+    color: #111111;
+    padding: 0.2em 0.3em;
+    margin: 1em 2em;
+    border: 0.3rem solid #111111;
+}
+
+.homeBtn {
+
+    font-size: 1.5rem;
+    font-weight: 700;
+    border-radius: 1rem;
+    background-color: #ffeb00;
+    color: #111111;
+    padding: 0.2em 0.3em;
+    margin: 1em 2em;
+    border: 0.3rem solid #111111;
+}
+

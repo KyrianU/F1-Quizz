@@ -50,6 +50,7 @@ to be statiscally, the most successful formula 1 team.
 ## Landing Page
 
 - The landing page, which consists of the main buttons Start, which will take you to the quizz page. The  instructions, which will take the user to the instruction page & leaderboard button that will take the user to the leaderboard page
+[landing page](/assets/screenshots/main-page.png)
 
 ## Main Quiz Page
 
