@@ -148,14 +148,18 @@ a {
 
 }
 
+.instructions p {
+    margin-bottom: 1rem;
+}
+
 #start-quizz {
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: 500;
     background-color: #ffeb00;
     color: #111111;
     margin: 0 auto;
     border: 0.4rem solid #111111;
-    margin-top: 2rem;
-    border-radius: 2rem;
+    margin-top: 4rem;
+    border-radius: 3rem;
 }
 
