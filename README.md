@@ -65,7 +65,7 @@ to be statiscally, the most successful formula 1 team.
 ## End of the quiz
 
 - This section of the quiz is where the final score is displayed. users will be then prompted to input their username and then save it. The user will also be prompted to either start the quiz over should they wish to do so, or to go back to the homepage
-![End of Game](/assets/screenshots/End%20of%20Game.png)
+![End of Game](/assets/screenshots/End-of-Game.png)
 
 ## Leaderboard page
 
