@@ -71,6 +71,7 @@ to be statiscally, the most successful formula 1 team.
 
 - This page shows the user the top 6 people in the leaderboard. The leaderboard is stored locally
 - The user has the option to either start the quiz over or be prompted to back to the homepage
+![leaderboard page](/assets/screenshots/Leaderboard.png)
 
 ## Correct Answer
 
