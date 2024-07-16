@@ -57,6 +57,11 @@ body {
     margin-bottom: 0.5rem;
 }
 
+.playAgainBtn:hover {
+    cursor: pointer;
+    transform: scale(1.06);
+}
+
 .homeBtn {
 
     font-size: 1.5rem;
@@ -68,5 +73,10 @@ body {
     margin: 1em 2em;
     border: 0.3rem solid #111111;
     margin-top: 0.5rem;
+}
+
+.homeBtn:hover {
+    cursor: pointer;
+    transform: scale(1.06);
 }
 

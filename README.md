@@ -76,10 +76,12 @@ to be statiscally, the most successful formula 1 team.
 ## Correct Answer
 
 - The answer button will be highlighted in green whenever the correct answer has been selected
+![Correct answer](/assets/screenshots/correct-answer.png)
 
 ## Incorrect Answer
 
 - Opposite to the correct answer, the incorrect answer will be highlighted In red for when the incorrect answer has been selected
+![Incorrect answer](/assets/screenshots/Incorrect-answer.png)
 
 # Features left to implement
 

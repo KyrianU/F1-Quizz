@@ -163,3 +163,8 @@ a {
     border-radius: 3rem;
 }
 
+#start-quizz:hover {
+    cursor: pointer;
+    transform: scale(1.06);
+}
+

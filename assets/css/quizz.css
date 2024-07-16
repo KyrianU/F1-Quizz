@@ -91,6 +91,16 @@
     margin: 1rem 1rem;
 }
 
+#home-btn:hover {
+    cursor: pointer;
+    transform: scale(1.06);
+}
+
+#restart-btn:hover {
+    cursor: pointer;
+    transform: scale(1.06);
+}
+
 .btn {
    background-color: #111111;
    color: #ffeb00;
