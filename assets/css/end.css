@@ -56,6 +56,11 @@ input {
    border: 0.3rem solid #111111;
 }
 
+#playAgainBtn:hover {
+    cursor: pointer;
+    transform: scale(2.06);
+}
+
 #homeBtn {
 
     font-size: 1.5rem;

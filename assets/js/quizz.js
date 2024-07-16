@@ -163,7 +163,7 @@ choices.forEach(choice => {
         setTimeout(() => {
             selectedChoice.parentElement.classList.remove(classToApply)
             getNewQuestion()
-        }, 20000)
+        },  800)
     })
 })
 

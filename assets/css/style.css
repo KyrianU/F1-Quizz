@@ -106,30 +106,7 @@ a {
     text-decoration: none;
 }
 
-/* CCS styling for the end.html file */
-
-
-.save-btn {
-    background-color: #a6051a;
-    color: #000000;
-    font-weight: bold;
-    padding: 1rem;
-}
-
-.playAgainBtn {
-
-    background-color: #a6051a;
-    color: #000000;
-    font-weight: bold;
-    padding: 1rem;
-}
-
-.homeBtn {
-    background-color: #a6051a;
-    color: #000000;
-    font-weight: bold;
-    padding: 1rem;
-}
+/* CCS styling for the instruction.html file */
 
 .instructions {
 
@@ -167,4 +144,126 @@ a {
     cursor: pointer;
     transform: scale(1.06);
 }
+
+@media screen and (max-width: 375px) {
+    .instructions {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        border: 2px solid;
+        border-radius: 20px;
+        max-width: 70%;
+        height: 450px;
+        padding: 2rem;
+        margin: 0 auto;
+        margin-top: 6rem;
+        background: white;
+    
+    }
+
+    .instructions p {
+        margin-top: 2rem;
+    }
+
+
+    #start-quizz {
+        font-size: 1rem;
+        font-weight: 500;
+        background-color: #ffeb00;
+        color: #111111;
+        margin: 0 auto;
+        border: 0.4rem solid #111111;
+        margin-top: 4rem;
+        border-radius: 3rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .instructions {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        border: 2px solid;
+        border-radius: 20px;
+        max-width: 70%;
+        height: 600px;
+        padding: 2rem;
+        margin: 0 auto;
+        margin-top: 6rem;
+        background: white;
+    
+    }
+}
+
+@media (min-width: 656px) and (max-width: 1023px) {
+    .instructions {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        border: 2px solid;
+        border-radius: 20px;
+        max-width: 70%;
+        height: 1100px;
+        padding: 2rem;
+        margin: 0 auto;
+        margin-top: 6rem;
+        background: white;
+    
+    }
+}
+
+
+@media screen and (max-width: 655px) {
+    .instructions {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        border: 2px solid;
+        border-radius: 20px;
+        max-width: 70%;
+        height: 600px;
+        padding: 2rem;
+        margin: 0 auto;
+        margin-top: 6rem;
+        background: white;
+    
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .instructions {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        border: 2px solid;
+        border-radius: 20px;
+        max-width: 70%;
+        height: 900px;
+        padding: 2rem;
+        margin: 0 auto;
+        margin-top: 6rem;
+        background: white;
+    
+    }
+
+    .instructions p {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-weight: 900;
+    }
+}
+
+
 
