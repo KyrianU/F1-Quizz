@@ -15,50 +15,55 @@
 <!-- Header Display-->
 <body>
     <div class="quizz-container">
-        <div id="quizz">
-            <div id="hud">
-                <div class="hud-items">
-                    <p id="progressText" class="hud-prefix">
-                        Question
-                    </p>
-                    <div id="progressBar"></div>
+        <div class="hud-items">
+            <p id="progressText" class="hud-prefix">
+                Question
+            </p>
+            <div id="progressBar"></div>
+        </div>
+        <div class="hud-item">
+            <p class="hud-prefix">
+                Score
+            </p>
+            <h1 class="hud-main-text" id="score">
+                0
+            </h1>
+        </div>
+    </div>
+
+    <div class="container">
+        <div id="quiz" class="justify-center flex-column">
+            <div id="head-display">
+
+                    <!-- Question Container-->
+                    <h2 id="question">What is the answer to this question</h2>
+                    <div class="choice-container">
+                        <p class="choice-prefix">A</p>
+                        <p class="choice-text" data-number="1">Choice 1</p>
+                    </div>
+                    <div class="choice-container">
+                        <p class="choice-prefix">B</p>
+                        <p class="choice-text" data-number="2">Choice 2</p>
+                    </div>
+                    <div class="choice-container">
+                        <p class="choice-prefix">C</p>
+                        <p class="choice-text" data-number="3">Choice 3</p>
+                    </div>
+                    <div class="choice-container">
+                        <p class="choice-prefix">D</p>
+                        <p class="choice-text" data-number="4">Choice 4</p>
+                    </div>
                 </div>
+                <div id="button-container">
+                    <button id="home-btn" class="btn" aria-label="button that direct 
+                    user back to homepage">Home</button>
+                    <button id="restart-btn" class="btn" aria-label="button that direct
+                    user back to start of the quiz">Restart</button>
+                </div> 
+                <!--Javascript External file-->
+                <script src="assets/js/quizz.js"></script>               
             </div>
-            <div class="hud-item">
-                <p class="hud-prefix">
-                    Score
-                </p>
-                <h1 class="hud-main-text" id="score">
-                    0
-                </h1>
-            </div>
-        </div>
-        <!-- Question Container-->
-        <h2 id="question">What is the answer to this question</h2>
-        <div class="choice-container">
-            <p class="choice-prefix">A</p>
-            <p class="choice-text" data-number="1">Choice 1</p>
-        </div>
-        <div class="choice-container">
-            <p class="choice-prefix">B</p>
-            <p class="choice-text" data-number="2">Choice 2</p>
-        </div>
-        <div class="choice-container">
-            <p class="choice-prefix">C</p>
-            <p class="choice-text" data-number="3">Choice 3</p>
-        </div>
-        <div class="choice-container">
-            <p class="choice-prefix">D</p>
-            <p class="choice-text" data-number="4">Choice 4</p>
         </div>
     </div>
-    <div id="button-container">
-        <button id="home-btn" class="btn" aria-label="button that direct 
-         user back to homepage">Home</button>
-        <button id="restart-btn" class="btn" aria-label="button that direct
-         user back to start of the quiz">Restart</button>
-    </div>
-    <!--Javascript External file-->
-    <script src="assets/js/quizz.js"></script>
 </body>
 </html>

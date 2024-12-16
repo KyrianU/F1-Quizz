@@ -29,6 +29,19 @@
     border: 20px black;
 }
 
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 3px solid;
+    border-radius: 25px;
+    max-width: 75%;
+    height: 500px;
+    padding: 3rem;
+    margin: 0 auto;
+    background: white;
+}
 
 .choice-container {
     margin-bottom: 1rem;
