@@ -140,3 +140,10 @@ h2 #question {
     }
 
 }
+
+@media screen and (max-width: 760px) {
+    
+    .container {
+        height: 700px
+    }
+}
