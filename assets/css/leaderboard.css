@@ -81,3 +81,38 @@ body {
     transform: scale(1.06);
 }
 
+@media screen and (max-width: 760px) {
+   
+    .leaderboard-container {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: 5px solid;
+        border-radius: 20px;
+        height: 400px;
+        padding: 2rem;
+        margin: 0 auto;
+        margin-top: 6rem;
+        width: 70%;
+        background: white;
+    }
+}
+
+@media screen and (max-width: 375px) {
+
+    .leaderboard-container {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: 5px solid;
+        border-radius: 20px;
+        height: 400px;
+        padding: 2rem;
+        margin: 0 auto;
+        margin-top: 6rem;
+        width: 70%;
+        background: white;
+    }
+}
