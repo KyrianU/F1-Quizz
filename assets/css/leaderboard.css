@@ -35,6 +35,7 @@ body {
 #leaderboardList {
 
     font-weight: 600;
+    list-style: none;
 }
 
 .flex-column {
