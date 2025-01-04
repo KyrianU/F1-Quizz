@@ -97,6 +97,11 @@ body {
         width: 70%;
         background: white;
     }
+
+    .playAgainBtn {
+
+        text-align: center;
+    }
 }
 
 @media screen and (max-width: 375px) {
@@ -114,5 +119,10 @@ body {
         margin-top: 6rem;
         width: 70%;
         background: white;
+    }
+
+    .playAgainBtn:hover {
+
+        text-align: center;
     }
 }
