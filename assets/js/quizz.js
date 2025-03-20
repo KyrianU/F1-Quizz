@@ -124,7 +124,7 @@ getNewQuestion = () => {
     if(availableQuestions.length === 0 || questionCounter >= MAX_QUESTIONS) {
         localStorage.setItem('mostRecentScore', score);
         //go to the end page
-        return window.location.assign('/end.html');
+        return window.location.assign('end.html');
     }
     questionCounter++
     progressText.innerText = `Question ${questionCounter}/${MAX_QUESTIONS}`;
@@ -183,9 +183,9 @@ incrementScore = num => {
 startGame()
 
 homeBtn.addEventListener('click', () => {
-    return window.location.assign('/index.html');
+    return window.location.assign('index.html');
 });
 
 restartBtn.addEventListener('click', () => {
-    return window.location.assign('/quizz.html');
+    return window.location.assign('quizz.html');
 })
