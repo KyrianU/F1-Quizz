@@ -101,9 +101,9 @@ to be statiscally, the most successful formula 1 team.
 
 ## Validator testing 
 
-- All of my HTML files were tested using the ![vHTML Validator](https://validator.w3.org/nu/#textarea) and all passed with minimal issues 
+- All of my HTML files were tested using the ![HTML Validator](https://validator.w3.org/nu/#textarea) and all passed with minimal issues 
 
-- 
+- All of my CSS files were tested using the ![CSS Validator](https://jigsaw.w3.org/css-validator/)
 
 ## Lighthouse reporting
 
