@@ -3,7 +3,7 @@
 // basic const function creaded //
 
 const question = document.querySelector('#question');
-const choices = Array.from(document.querySelectorAll('.choice-text'));
+const choiceContainers = Array.from(document.querySelectorAll('.choice-container'));
 const progressText = document.querySelector('#progressText');
 const scoreText = document.querySelector('#score');
 const homeBtn = document.querySelector('#home-btn');
@@ -145,7 +145,7 @@ getNewQuestion = () => {
 };
 
 choices.forEach(choice => {
-    choice.addEventListener('click', e => {
+    choicecontainer.addEventListener('click', e => {
         if(!acceptingAnswers) return
 
         acceptingAnswers = false

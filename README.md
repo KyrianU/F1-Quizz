@@ -110,6 +110,21 @@ to be statiscally, the most successful formula 1 team.
 - I conducted the lighthouse report in google chrome to test the perfomance of the quiz site, results can be seen below
 ![lighthouse](/assets/images/lighthouse-report.png)
 
+## Manual Testing
+
+| Feature | Action  | Expectation  | Result  |
+|---------|---------|--------------|---------|
+| Starting a new game| Click on play now button  | Expects the user to be directed to quizz page | Pass |
+| Display instructions | Click on instruction button | Expects user to be redirected to the instruction page | Pass |
+| Display leaderboard | Click on leaderboard button | Expects user to be redirected to the leaderboard page | Pass  |
+Correct Answer | clicking on anyone of the 4 option | Expects the correct answer choice to go green | Pass|
+| Incorrect Answer | Clicking on anyone of the 4 option | Expects the incorrect answer to go red | Pass|
+| Home button on quizz page | Click on Home button | The user should be redirected to the home screen | Pass |
+| Restart button on quiz page | Click on Restart Button | the user should be redirected back to question 1 | Pass |
+| Save button | Click on the save button | Once the user has filled the input with their name, the save button works | Pass |
+| Start Over button at end of game | Click on the Start Over button | User redirected to the start of the quizz | Pass |
+| Home Button at the end of game | Click on the Home Button | User gets redirected to the Home screen | Pass |
+
 # Credits
 
 - For this project I relied a lot on the material from the likes of Brian Design and James Quick, the link to their tutorial can be found below.
@@ -120,7 +135,8 @@ When I had an issue with removing text decorations from my anchor elements, It w
 ![anchor tag](https://www.shecodes.io/athena/62460-how-to-remove-underline-from-an-html-link-with-css#:~:text=You%20need%20to%20set%20the,any%20of%20its%20other%20styles.&text=In%20this%20example%2C%20the%20a,any%20links%20on%20your%20website)
 
 ![Font awesome](https://fontawesome.com/search?q=end&o=r)
-webstite favicon was taking from her![flaticon](https://www.flaticon.com/style/search?word=formula+1)
+
+webstite favicon was taking from here ![flaticon](https://www.flaticon.com/style/search?word=formula+1)
 
 Coolors where the color theme for the site was picked from ![Coolors](https://coolors.co/a6051a-ffeb00-ffffff-111111-ef3054)
 
