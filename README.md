@@ -125,6 +125,16 @@ Correct Answer | clicking on anyone of the 4 option | Expects the correct answer
 | Start Over button at end of game | Click on the Start Over button | User redirected to the start of the quizz | Pass |
 | Home Button at the end of game | Click on the Home Button | User gets redirected to the Home screen | Pass |
 
+# Deployment
+
+The site has been deployed using [GitPages](https://pages.github.com)
++ In the GitHub repository, the seting tab.
++ Under General, go to 'navigate to Code and Automation, then click 'Pages'.
++ In the Build up and Deployment section for Source, Select 'Deploy from a branch' from the dropdown list.
++ For Branch, please select 'main' from the drop-down list, then click save
++ The link to the complete website will be displayed at the top of the page
++ The deployed site will be updated automatically upon new commits to the master branch.
+
 # Credits
 
 - For this project I relied a lot on the material from the likes of Brian Design and James Quick, the link to their tutorial can be found below.
