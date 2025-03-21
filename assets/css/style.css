@@ -145,6 +145,16 @@ a {
     transform: scale(1.06);
 }
 
+@media screen and (max-width: 350px) {
+    #Home-container {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 75%;
+     }
+}
+
 @media screen and (max-width: 375px) {
     .instructions {
 

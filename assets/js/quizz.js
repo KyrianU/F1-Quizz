@@ -145,7 +145,7 @@ getNewQuestion = () => {
 };
 
 choices.forEach(choice => {
-    choicecontainer.addEventListener('click', e => {
+    choiceContainers.addEventListener('click', e => {
         if(!acceptingAnswers) return
 
         acceptingAnswers = false

@@ -60,7 +60,7 @@ to be statiscally, the most successful formula 1 team.
 ## Main Quiz Page
 
 - The page below which consists of the main quiz page which features a question counter and score count. The hover effect highlighted in the screenshot below, to help the user know which answer the cursor currently is pointing at.
-![Quiz Page](/assets/screenshots/Quizz-page.png)
+![Quiz Page](/assets/screenshots/quiz-page.png)
 
 ## End of the quiz
 
@@ -101,9 +101,9 @@ to be statiscally, the most successful formula 1 team.
 
 ## Validator testing 
 
-- All of my HTML files were tested using the ![HTML Validator](https://validator.w3.org/nu/#textarea) and all passed with minimal issues 
+- All of my HTML files were tested using the ![HTMLValidator](https://validator.w3.org/nu/#textarea) and all passed with minimal issues 
 
-- All of my CSS files were tested using the ![CSS Validator](https://jigsaw.w3.org/css-validator/)
+- All of my CSS files were tested using the ![CSSValidator](https://jigsaw.w3.org/css-validator/)
 
 ## Lighthouse reporting
 
@@ -138,16 +138,16 @@ The site has been deployed using [GitPages](https://pages.github.com)
 # Credits
 
 - For this project I relied a lot on the material from the likes of Brian Design and James Quick, the link to their tutorial can be found below.
-![Youtube](https://www.youtube.com/watch?v=f4fB9Xg2JEY)
-![Youtube](https://www.youtube.com/watch?v=IK257Ln0MZc)
+[Youtube](https://www.youtube.com/watch?v=f4fB9Xg2JEY)
+[Youtube](https://www.youtube.com/watch?v=IK257Ln0MZc)
 
 When I had an issue with removing text decorations from my anchor elements, It was thanks to the link below that I was able to overcome the issue
-![anchor tag](https://www.shecodes.io/athena/62460-how-to-remove-underline-from-an-html-link-with-css#:~:text=You%20need%20to%20set%20the,any%20of%20its%20other%20styles.&text=In%20this%20example%2C%20the%20a,any%20links%20on%20your%20website)
+[anchortag](https://www.shecodes.io/athena/62460-how-to-remove-underline-from-an-html-link-with-css#:~:text=You%20need%20to%20set%20the,any%20of%20its%20other%20styles.&text=In%20this%20example%2C%20the%20a,any%20links%20on%20your%20website)
 
-![Font awesome](https://fontawesome.com/search?q=end&o=r)
+[Fontawesome](https://fontawesome.com/search?q=end&o=r)
 
-webstite favicon was taking from here ![flaticon](https://www.flaticon.com/style/search?word=formula+1)
+webstite favicon was taking from here [flaticon](https://www.flaticon.com/style/search?word=formula+1)
 
-Coolors where the color theme for the site was picked from ![Coolors](https://coolors.co/a6051a-ffeb00-ffffff-111111-ef3054)
+Coolors where the color theme for the site was picked from [Coolors](https://coolors.co/a6051a-ffeb00-ffffff-111111-ef3054)
 
-![W3C validator](https://validator.w3.org/nu/#textarea)
+[W3Cvalidator](https://validator.w3.org/nu/#textarea)
