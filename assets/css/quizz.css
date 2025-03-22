@@ -37,14 +37,14 @@ h2 #question {
     border: 3px solid;
     border-radius: 25px;
     max-width: 90%;
-    height: 500px;
+    height: 350px;
     padding: 3rem;
     margin: 0 auto;
     background: white;
 }
 
 .choice-container {
-    margin-bottom: 1rem;
+    margin: 15px 0;
     border-radius: 4px;
     background: #111111;
     font-size: 1rem;
@@ -56,11 +56,6 @@ h2 #question {
 .choice-container:hover {
     cursor: pointer;
     transform: scale(1.06);
-}
-
-.choice-prefix {
-    padding: 0.5rem 3rem;
-    color: #ffeb00;
 }
 
 .choice-text {
