@@ -127,6 +127,10 @@ Correct Answer | clicking on anyone of the 4 option | Expects the correct answer
 | Start Over button at end of game | Click on the Start Over button | User redirected to the start of the quizz | Pass |
 | Home Button at the end of game | Click on the Home Button | User gets redirected to the Home screen | Pass |
 
+## Bugs
+
+- While working on testing the app, I came across an issue when tring to save my highscore locally. Evertime the user input their name, it wouldn't register at all and the issue was that there was a mising quotation mark at the end of the class name ![bug](screenshot/bug.png)
+
 # Deployment
 
 The site has been deployed using [GitPages](https://pages.github.com)
