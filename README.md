@@ -1,5 +1,7 @@
 # F1 Quizz - The general quiz about formula 1
 
+![Introduction](screenshots/introduction.png)
+
 # Overview
 - F1 Quizz is a fun challenging formula 1 quiz that challenges the knowledge of the user regarding formula 1. The site is aimed at formula 1 fans who are aiming to test their general knowldedge of formula 1.
 
@@ -27,61 +29,61 @@
 ### Color scheme
 - For the color scheme, I deciced to emulate the color scheme of the ferrari formula 1 team, which happens 
 to be statiscally, the most successful formula 1 team.
-![Color Palette](assets/images/color-palette.png)
+![Color Palette](images/color-palette.png)
 
 ### Fonts used
 -  The fonts used for the site was Montserrat, sans serif
 
 # Wireframes 
 ## Landing page
-![Home Page](assets/images/wireframe-homepage.png)
+![Home Page](images/wireframe-homepage.png)
 
 ## Quiz Page
-![Quiz Page](assets/images/Wireframe-quizpage.png)
+![Quiz Page](images/Wireframe-quizpage.png)
 
 ## Enf of Quiz
-![Quiz End](assets/images/Wireframe-quizpage.png)
+![Quiz End](images/Wireframe-quizpage.png)
 
 ## Leaderboard
-![leaderboard](assets/images/wireframes-leaderboard.png)
+![leaderboard](images/wireframes-leaderboard.png)
 
 
 # Features
 ## Landing Page
 
 - The landing page, which consists of the main buttons Start, which will take you to the quizz page. The  instructions, which will take the user to the instruction page & leaderboard button that will take the user to the leaderboard page
-![landing page](/assets/screenshots/main-page.png)
+![landing page](screenshots/main-page.png)
 
 ## Instructions
 
 - This page contains a brief overview and instructions on the quiz, how many questions there are and the maximum points available
-![Instructions](/assets/screenshots/instructions.png)
+![Instructions](screenshots/instructions.png)
 
 ## Main Quiz Page
 
 - The page below which consists of the main quiz page which features a question counter and score count. The hover effect highlighted in the screenshot below, to help the user know which answer the cursor currently is pointing at.
-![Quiz Page](/assets/screenshots/quiz-page.png)
+![Quiz Page](screenshots/quiz-page.png)
 
 ## End of the quiz
 
 - This section of the quiz is where the final score is displayed. users will be then prompted to input their username and then save it. The user will also be prompted to either start the quiz over should they wish to do so, or to go back to the homepage
-![End of Game](/assets/screenshots/End-of-Game.png)
+![End of Game](screenshots/End-of-Game.png)
 
 ## Leaderboard page
 
 - This page shows the user the top 6 people in the leaderboard. The leaderboard is stored locally
 - The user has the option to either start the quiz over or be prompted to back to the homepage
-![leaderboard page](/assets/screenshots/Leaderboard.png)
+![leaderboard page](screenshots/leaderboard.png)
 
 ## Correct Answer
 
 - The answer button will be highlighted in green whenever the correct answer has been selected
-![Correct answer](/assets/screenshots/correct-answer.png)
+![Correct answer](screenshots/correct-answer.png)
 
 ## Incorrect Answer
 
 - Opposite to the correct answer, the incorrect answer will be highlighted In red for when the incorrect answer has been selected
-![Incorrect answer](/assets/screenshots/Incorrect-answer.png)
+![Incorrect answer](screenshots/incorrect-answer.png)
 
 # Features left to implement
 
@@ -108,7 +110,7 @@ to be statiscally, the most successful formula 1 team.
 ## Lighthouse reporting
 
 - I conducted the lighthouse report in google chrome to test the perfomance of the quiz site, results can be seen below
-![lighthouse](/assets/images/lighthouse-report.png)
+![lighthouse](images/lighthouse-report.png)
 
 ## Manual Testing
 
