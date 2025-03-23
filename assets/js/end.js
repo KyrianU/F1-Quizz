@@ -19,8 +19,8 @@ quizScore.innerText = mostRecentScore;
 // Event listener for the save button function // 
 
 username.addEventListener('keyup', () => {
-    userSaveBtn.disabled = !username.value
-})
+    userSaveBtn.disabled = !username.value;
+});
 
 /**
  * Function that enables to user to save their score and be redirected to the homepage

@@ -105,7 +105,15 @@ to be statiscally, the most successful formula 1 team.
 
 - All of my HTML files were tested using the [HTMLValidator](https://validator.w3.org/nu/#textarea) and all passed with minimal issues 
 
-- All of my CSS files were tested using the [CSSValidator](https://jigsaw.w3.org/css-validator/)
+- All of my CSS files were tested using the [CSSValidator](https://jigsaw.w3.org/css-validator/) and all passed with minimal issues
+
+- My Js files were tested using the [JsHint](https://jshint.com/) and all passed, although some files had some warnings which did not have an impact on the overall functionality of the app.
+#### End.js
+[end.js](screenshots/endjs.png)
+#### Leaderboard.js
+[leaderboard.js](screenshots/endjs.png)
+#### Quiz.js
+[quiz.js](screenshots/quizjs.png)
 
 ## Lighthouse reporting
 
@@ -129,7 +137,7 @@ Correct Answer | clicking on anyone of the 4 option | Expects the correct answer
 
 ## Bugs
 
-- While working on testing the app, I came across an issue when tring to save my highscore locally. Evertime the user input their name, it wouldn't register at all and the issue was that there was a mising quotation mark at the end of the class name ![bug](screenshot/bug.png)
+- While working on testing the app, I came across an issue when tring to save my highscore locally. Evertime the user input their name, it wouldn't register at all and the issue was that there was a mising quotation mark at the end of the class name ![bug](screenshots/bug.png)
 
 # Deployment
 

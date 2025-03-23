@@ -11,11 +11,11 @@ const restartBtn = document.querySelector('#restart-btn');
 
 // calls for various function created //
 
-let currentQuestion = {}
-let acceptingAnswers = true
-let score = 0
-let questionCounter = 0
-let availableQuestions = []
+let currentQuestion = {};
+let acceptingAnswers = true;
+let score = 0;
+let questionCounter = 0;
+let availableQuestions = [];
 
 /**
 * List of questions and answers created and stored in this array object 
@@ -106,17 +106,17 @@ let questions = [{
 
 // Points for maximum score and maximum questions count //
 
-const SCORE_POINTS = 10
-const MAX_QUESTIONS = 10
+const SCORE_POINTS = 10;
+const MAX_QUESTIONS = 10;
 
 // starts the Game function //
 
 startGame = () => {
-    questionCounter = 0
-    score = 0
-    availableQuestions = [...questions]
-    getNewQuestion()
-}
+    questionCounter = 0;
+    score = 0;
+    availableQuestions = [...questions];
+    getNewQuestion();
+};
 
 
 getNewQuestion = () => {
@@ -125,7 +125,7 @@ getNewQuestion = () => {
         //go to the end page
         return window.location.assign('end.html');
     }
-    questionCounter++
+    questionCounter++;
     progressText.innerText = `Question ${questionCounter}/${MAX_QUESTIONS}`;
     progressBar.style.width = `${(questionCounter / MAX_QUESTIONS) * 100}%`;
 
@@ -134,7 +134,7 @@ getNewQuestion = () => {
     question.innerText = currentQuestion.question;
 
     choices.forEach((choice) => {
-        const number = choice.dataset['number'];
+        const number = choice.dataset['number.'];
         choice.innerText = currentQuestion['choice' + number];
     });
 
@@ -145,41 +145,41 @@ getNewQuestion = () => {
 
 choices.forEach(choice => {
     choice.addEventListener('click', e => {
-        if(!acceptingAnswers) return
+        if(!acceptingAnswers) return;
 
-        acceptingAnswers = false
-        const selectedChoice = e.target
-        const selectedAnswer = selectedChoice.dataset['number']
+        acceptingAnswers = false;
+        const selectedChoice = e.target;
+        const selectedAnswer = selectedChoice.dataset['number.'];
 
-        let classToApply = selectedAnswer == currentQuestion.answer ? 'correct' : 'incorrect'
+        let classToApply = selectedAnswer == currentQuestion.answer ? 'correct' : 'incorrect';
 
         if(classToApply === 'correct') {
-            incrementScore(SCORE_POINTS)
+            incrementScore(SCORE_POINTS);
         }
 
-        selectedChoice.parentElement.classList.add(classToApply)
+        selectedChoice.parentElement.classList.add(classToApply);
 
         setTimeout(() => {
-            selectedChoice.parentElement.classList.remove(classToApply)
-            getNewQuestion()
-        },  800)
-    })
-})
+            selectedChoice.parentElement.classList.remove(classToApply);
+            getNewQuestion();
+        },  800);
+    });
+});
 
 /**
  * Increments the score to the score counter
  */
 
 incrementScore = num => {
-    score +=num
-    scoreText.innerText = score
-}
+    score +=num;
+    scoreText.innerText = score;
+};
 
 /**
  * event listeners for the home and restart button 
  */
 
-startGame()
+startGame();
 
 homeBtn.addEventListener('click', () => {
     return window.location.assign('index.html');
@@ -187,4 +187,4 @@ homeBtn.addEventListener('click', () => {
 
 restartBtn.addEventListener('click', () => {
     return window.location.assign('quizz.html');
-})
+});
