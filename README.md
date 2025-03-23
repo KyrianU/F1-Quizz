@@ -67,7 +67,7 @@ to be statiscally, the most successful formula 1 team.
 ## End of the quiz
 
 - This section of the quiz is where the final score is displayed. users will be then prompted to input their username and then save it. The user will also be prompted to either start the quiz over should they wish to do so, or to go back to the homepage
-![End of Game](screenshots/End-of-Game.png)
+![End of Game](screenshots/End-of-game.png)
 
 ## Leaderboard page
 
@@ -143,13 +143,13 @@ The site has been deployed using [GitPages](https://pages.github.com)
 [Youtube](https://www.youtube.com/watch?v=f4fB9Xg2JEY)
 [Youtube](https://www.youtube.com/watch?v=IK257Ln0MZc)
 
-When I had an issue with removing text decorations from my anchor elements, It was thanks to the link below that I was able to overcome the issue
+- When I had an issue with removing text decorations from my anchor elements, It was thanks to the link below that I was able to overcome the issue
 [anchortag](https://www.shecodes.io/athena/62460-how-to-remove-underline-from-an-html-link-with-css#:~:text=You%20need%20to%20set%20the,any%20of%20its%20other%20styles.&text=In%20this%20example%2C%20the%20a,any%20links%20on%20your%20website)
 
-[Fontawesome](https://fontawesome.com/search?q=end&o=r)
+- [Fontawesome](https://fontawesome.com/search?q=end&o=r)
 
-webstite favicon was taking from here [flaticon](https://www.flaticon.com/style/search?word=formula+1)
+- webstite favicon was taking from here [flaticon](https://www.flaticon.com/style/search?word=formula+1)
 
-Coolors where the color theme for the site was picked from [Coolors](https://coolors.co/a6051a-ffeb00-ffffff-111111-ef3054)
+- Coolors where the color theme for the site was picked from [Coolors](https://coolors.co/a6051a-ffeb00-ffffff-111111-ef3054)
 
-[W3Cvalidator](https://validator.w3.org/nu/#textarea)
+- [W3Cvalidator](https://validator.w3.org/nu/#textarea)
