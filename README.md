@@ -109,11 +109,11 @@ to be statiscally, the most successful formula 1 team.
 
 - My Js files were tested using the [JsHint](https://jshint.com/) and all passed, although some files had some warnings which did not have an impact on the overall functionality of the app.
 #### End.js
-[end.js](screenshots/endjs.png)
+![end.js](screenshots/endjs.png)
 #### Leaderboard.js
-[leaderboard.js](screenshots/endjs.png)
+![leaderboard.js](screenshots/endjs.png)
 #### Quiz.js
-[quiz.js](screenshots/quizjs.png)
+![quiz.js](screenshots/quizjs.png)
 
 ## Lighthouse reporting
 
@@ -152,8 +152,8 @@ The site has been deployed using [GitPages](https://pages.github.com)
 # Credits
 
 - For this project I relied a lot on the material from the likes of Brian Design and James Quick, the link to their tutorial can be found below.
-[Youtube](https://www.youtube.com/watch?v=f4fB9Xg2JEY)
-[Youtube](https://www.youtube.com/watch?v=IK257Ln0MZc)
+* [Youtube](https://www.youtube.com/watch?v=f4fB9Xg2JEY)
+* [Youtube](https://www.youtube.com/watch?v=IK257Ln0MZc)
 
 - When I had an issue with removing text decorations from my anchor elements, It was thanks to the link below that I was able to overcome the issue
 [anchortag](https://www.shecodes.io/athena/62460-how-to-remove-underline-from-an-html-link-with-css#:~:text=You%20need%20to%20set%20the,any%20of%20its%20other%20styles.&text=In%20this%20example%2C%20the%20a,any%20links%20on%20your%20website)
