@@ -89,6 +89,8 @@ to be statiscally, the most successful formula 1 team.
 
 - A feature that could be implemented in the future would be a different set of difficulty level, ranging from easy, medium, hard, expert. This would make it more challenging and more fun for existing formula 1 fans and new formula 1 fans
 - to the display the correct answer whenever the incorrect answer has been clicked 
+- A 15 second timer to answer each question.
+- The use of image based questions to make the game more interesting/memorable
 
 # Technologies Used
 - HTML5
@@ -100,6 +102,10 @@ to be statiscally, the most successful formula 1 team.
 - Am I responsive
 
 # Testing
+
+- Browser testing was completed via Google chrome Dev Tools. For iPhone SE (375x667) and also larger screens 
+- I tested it in various browsers such as Firefox, Chrome, Edge and Safari.
+- I was able to confirm that the quiz was working as expected on every page and every outcome possible was working as intended to.
 
 ## Validator testing 
 
@@ -139,6 +145,7 @@ Correct Answer | clicking on anyone of the 4 option | Expects the correct answer
 
 - While working on testing the app, I came across an issue when tring to save my highscore locally. Evertime the user input their name, it wouldn't register at all and the issue was that there was a mising quotation mark at the end of the class name ![bug](screenshots/bug.png)
 
+
 # Deployment
 
 The site has been deployed using [GitPages](https://pages.github.com)
@@ -152,8 +159,8 @@ The site has been deployed using [GitPages](https://pages.github.com)
 # Credits
 
 - For this project I relied a lot on the material from the likes of Brian Design and James Quick, the link to their tutorial can be found below.
-* [Youtube](https://www.youtube.com/watch?v=f4fB9Xg2JEY)
-* [Youtube](https://www.youtube.com/watch?v=IK257Ln0MZc)
+* [BrianDesign](https://www.youtube.com/watch?v=f4fB9Xg2JEY)
+* [JamesQuick](https://www.youtube.com/watch?v=IK257Ln0MZc)
 
 - When I had an issue with removing text decorations from my anchor elements, It was thanks to the link below that I was able to overcome the issue
 [anchortag](https://www.shecodes.io/athena/62460-how-to-remove-underline-from-an-html-link-with-css#:~:text=You%20need%20to%20set%20the,any%20of%20its%20other%20styles.&text=In%20this%20example%2C%20the%20a,any%20links%20on%20your%20website)
