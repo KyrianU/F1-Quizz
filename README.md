@@ -109,16 +109,21 @@ to be statiscally, the most successful formula 1 team.
 
 ## Validator testing 
 
-- All of my HTML files were tested using the [HTMLValidator](https://validator.w3.org/nu/#textarea) and all passed with minimal issues 
+All of my HTML files were tested using the [HTMLValidator](https://validator.w3.org/nu/#textarea) and all passed with no errors. The screenshot below is the same message I got from all html files
+- ![HTML](screenshots/validator.png)
 
-- All of my CSS files were tested using the [CSSValidator](https://jigsaw.w3.org/css-validator/) and all passed with minimal issues
+All of my CSS files were tested using the [CSSValidator](https://jigsaw.w3.org/css-validator/) and all passed with no errors. 
+- ![CSS](screenshots/cssvalidator.png)
 
-- My Js files were tested using the [JsHint](https://jshint.com/) and all passed, although some files had some warnings which did not have an impact on the overall functionality of the app.
-#### End.js
-![end.js](screenshots/endjs.png)
-#### Leaderboard.js
-![leaderboard.js](screenshots/endjs.png)
-#### Quiz.js
+My Js files were tested using the [JsHint](https://jshint.com/) and all passed, although some files had some warnings which did not have an impact on the overall functionality of the app.
+
+End.js
+ ![end.js](screenshots/endjs.png)
+
+Leaderboard.js
+ ![leaderboard.js](screenshots/leaderboardjs.png)
+
+Quizz.js
 ![quiz.js](screenshots/quizjs.png)
 
 ## Lighthouse reporting
