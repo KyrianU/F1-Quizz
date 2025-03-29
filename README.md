@@ -118,10 +118,10 @@ All of my CSS files were tested using the [CSSValidator](https://jigsaw.w3.org/c
 My Js files were tested using the [JsHint](https://jshint.com/) and all passed, although some files had some warnings which did not have an impact on the overall functionality of the app.
 
 End.js
- ![end.js](screenshots/endjs.png)
+![end.js](screenshots/endjs.png)
 
 Leaderboard.js
- ![leaderboard.js](screenshots/leaderboardjs.png)
+![leaderboard.js](screenshots/leaderboardjs.png)
 
 Quizz.js
 ![quiz.js](screenshots/quizjs.png)
