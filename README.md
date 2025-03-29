@@ -5,7 +5,7 @@
 # Overview
 - F1 Quizz is a fun challenging formula 1 quiz that challenges the knowledge of the user regarding formula 1. The site is aimed at formula 1 fans who are aiming to test their general knowldedge of formula 1.
 
-- This is the link to the below site 
+- This is the link to the below site [F1Quizz](https://kyrianu.github.io/F1-Quizz/)
 
 # Purpose of the site
 - The purpose of the site is to attract existing formula 1 fans who would like to put their formula 1 knowledge to the test, as well as new fans who would like to learn a few intersting facts about F1. 
